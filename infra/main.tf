@@ -7,7 +7,7 @@ resource "random_id" "bucket_suffix" {
 }
 
 resource "aws_s3_bucket" "lab" {
-  bucket = "s3-control-node-sprint5-${random_id.bucket_suffix.hex}"
+  bucket = "s3-control-node-sprint5-777"
 }
 
 resource "aws_s3_bucket_versioning" "versioning" {
